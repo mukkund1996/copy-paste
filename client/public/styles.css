@@ -1,0 +1,70 @@
+h1 {
+  color: rgb(255, 255, 255);
+}
+h2 {
+  color: rgb(255, 255, 255);
+}
+h3 {
+  color: rgb(255, 255, 255);
+}
+h4 {
+  color: rgb(255, 255, 255);
+}
+h5 {
+  color: rgb(255, 255, 255);
+}
+
+html {
+  font-family: "Nunito";
+}
+
+body {
+  background: rgb(0, 0, 0);
+  display: "flex";
+  align-items: "center";
+  justify-content: "center";
+}
+
+.title{
+  font-family: 'Playfair Display';
+  font-style: italic;
+}
+
+.app {
+  text-align: center;
+  background: #121212;
+  border-radius: 12px;
+  width: 350px;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.paste-area {
+  padding: 5% 0%;
+}
+
+.paste-form {
+  margin-left: 5%;
+  align-items: center;
+  vertical-align: middle;
+  display: inline-flex;
+}
+
+.paste-view {
+  display: inline-flex;
+}
+
+.copy-form {
+  margin-left: 6%;
+  align-items: center;
+  vertical-align: middle;
+  display: inline-flex;
+}
+
+.submit-area {
+  display: inline-flex;
+  margin: 3%;
+}
