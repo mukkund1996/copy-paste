@@ -120,7 +120,7 @@ function PasteArea(props) {
       {visibility && (
         <div className="paste-view">
           <h4>{retrievedText}</h4>
-          <IconButton style={{borderRadius: 0}} onClick={copyToClipboard} color="primary">
+          <IconButton style={{ backgroundColor: 'transparent' }} onClick={copyToClipboard} color="primary">
             <ContentCopyIcon />
           </IconButton>
           <Snackbar
