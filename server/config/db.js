@@ -1,4 +1,4 @@
-const appPort = process.env.SERVER_PORT || 8080;
+const appPort = process.env.PORT || 8080;
 const mongoClusterName = process.env.MONGO_CLUSTER;
 const mongoUser = process.env.MONGO_USER;
 const mongoPass = process.env.MONGO_PASS;
